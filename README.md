@@ -79,3 +79,12 @@ FIRST_X_DISPLAY_NUMBER = "数字"
 sudo systemctl restart chrome-remote-desktop.service
 ```
 
+
+### 4．上手くいかない場合
+アンインストール後最初からやり直し
+```
+sudo systemctl stop chrome-remote-desktop.service
+sudo apt-get purge chrome-remote-desktop
+```
+↑の後，Chrome開き，`chrome://apps/`入力．
+ChromeRemoteDesktopアイコン右クリックし削除する．
