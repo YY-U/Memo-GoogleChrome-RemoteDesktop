@@ -4,6 +4,21 @@
 windows10(接続元) → ubunut18.04(接続先)
 
 ## 修正手順
+
+### 0．導入など
+#### 0-1．インストール
+```
+sudo dpkg -i chrome-remote-desktop_current_amd64.deb
+sudo apt-get install -f
+```
+
+#### 0-2．グループ追加
+カレントユーザをchrome-remote-desktopグループに追加し再起動
+```
+sudo usermod -a -G chrome-remote-desktop $USER
+sudo reboot
+```
+
 ### 1．前処理
 #### 1-1．chromeRemoteDesktopサービスを止める
 
