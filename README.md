@@ -28,5 +28,5 @@ echo $DISPLAY
 ↑と同じ数字を↓に書き換える
 
 ```
-FIRST_X_DISPLAY_NUMBER = 数字
+FIRST_X_DISPLAY_NUMBER = "数字"
 ```
