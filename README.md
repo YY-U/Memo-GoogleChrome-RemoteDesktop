@@ -22,6 +22,7 @@ sudo gedit /opt/google/chrome-remote-desktop/chrome-remote-desktop
 ```
 
 ### 2．ファイル編集
+#### 2-1．
 ```
 echo $DISPLAY
 ```
@@ -30,7 +31,7 @@ echo $DISPLAY
 ```
 FIRST_X_DISPLAY_NUMBER = "数字"
 ```
-
+#### 2-2．
 以下の通りに編集
 ```python
   @staticmethod
@@ -42,3 +43,24 @@ FIRST_X_DISPLAY_NUMBER = "数字"
     #   display += 1
     return display
 ```
+#### 2-3．
+
+```python
+  def launch_session(self, x_args):
+    self._init_child_env()
+    self._setup_pulseaudio()
+    self._setup_gnubby()
+    # self._launch_x_server(x_args)
+    # self._launch_x_session()
+    display = self.get_unused_display_number()
+    self.child_env["DISPLAY"] = ":%d" % display
+```
+
+すべて完了後，保存して終了．
+
+### 3．サービス再起動
+
+```
+sudo systemctl restart chrome-remote-desktop.service
+```
+
