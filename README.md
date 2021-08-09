@@ -32,7 +32,7 @@ FIRST_X_DISPLAY_NUMBER = "数字"
 ```
 
 以下の通りに編集
-```
+```python
   @staticmethod
   def get_unused_display_number():
     """Return a candidate display number for which there is currently no
