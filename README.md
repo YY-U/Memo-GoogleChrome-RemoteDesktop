@@ -1,6 +1,5 @@
-# GoogleChrome-RemoteDesktop_memo
-## windows10(接続元) → ubunut18.04(接続先)
-### memo
+# memo
+## Chrome-RemoteDesktop
+windows10(接続元) → ubunut18.04(接続先)
 
-# test
-# from remote
+
