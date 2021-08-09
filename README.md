@@ -9,7 +9,8 @@ windows10(接続元) → ubuntu18.04(接続先)
 #### 0-1．インストール
 
 chromeのウェブストア → "+CHROMEに追加"からインストール
-
+→ "アプリ起動" → "利用を開始" → "リモート接続を有効にする"にてインストーラーDL 
+→以下コマンドにてインストール完了
 ```
 sudo dpkg -i chrome-remote-desktop_current_amd64.deb
 sudo apt-get install -f
