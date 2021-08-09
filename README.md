@@ -92,3 +92,9 @@ sudo apt-get purge chrome-remote-desktop
 ```
 ↑の後，Chrome開き，`chrome://apps/`入力．
 ChromeRemoteDesktopアイコン右クリックし削除する．
+
+
+### 参考サイト
+https://xvideos.hatenablog.com/entry/chrome-remote-desktop-ubuntu1804
+
+
