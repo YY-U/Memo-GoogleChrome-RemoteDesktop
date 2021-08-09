@@ -22,4 +22,11 @@ sudo gedit /opt/google/chrome-remote-desktop/chrome-remote-desktop
 ```
 
 ### 2．ファイル編集
-```echo $DISPLAY```
+```
+echo $DISPLAY
+```
+↑と同じ数字を↓に書き換える
+
+```
+FIRST_X_DISPLAY_NUMBER = 数字
+```
