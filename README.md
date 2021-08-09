@@ -7,3 +7,8 @@ windows10(接続元) → ubunut18.04(接続先)
 ### 1．chromeRemoteDesktopの修正
 
 
+'''
+sudo systemctl stop chrome-remote-desktop.service
+'''
+
+
