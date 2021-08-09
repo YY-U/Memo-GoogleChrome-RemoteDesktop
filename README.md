@@ -1,7 +1,7 @@
 # memo
-## Chrome-RemoteDesktop
+## Chrome-Remote-Desktop
 ## 構築環境
-windows10(接続元) → ubunut18.04(接続先)
+windows10(接続元) → ubuntu18.04(接続先)
 
 ## 修正手順
 
