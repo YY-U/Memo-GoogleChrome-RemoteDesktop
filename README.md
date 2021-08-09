@@ -7,6 +7,9 @@ windows10(接続元) → ubuntu18.04(接続先)
 
 ### 0．導入など
 #### 0-1．インストール
+
+chromeのウェブストア → "+CHROMEに追加"からインストール
+
 ```
 sudo dpkg -i chrome-remote-desktop_current_amd64.deb
 sudo apt-get install -f
