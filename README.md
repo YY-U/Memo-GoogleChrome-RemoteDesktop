@@ -30,3 +30,15 @@ echo $DISPLAY
 ```
 FIRST_X_DISPLAY_NUMBER = "数字"
 ```
+
+以下の通りに編集
+```
+  @staticmethod
+  def get_unused_display_number():
+    """Return a candidate display number for which there is currently no
+    X Server lock file"""
+    display = FIRST_X_DISPLAY_NUMBER
+    # while os.path.exists(X_LOCK_FILE_TEMPLATE % display):
+    #   display += 1
+    return display
+```
