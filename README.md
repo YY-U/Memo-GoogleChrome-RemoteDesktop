@@ -30,6 +30,13 @@ sudo reboot
 sudo systemctl stop chrome-remote-desktop.service
 ```
 
+or
+
+```
+cd /opt/google/chrome-remote-desktop
+./chrome-remote-desktop --stop
+```
+
 #### 1-2．オリジナルファイルのバックアップを作成
 ```
 sudo cp /opt/google/chrome-remote-desktop/chrome-remote-desktop /opt/google/chrome-remote-desktop/chrome-remote-desktop.orig
