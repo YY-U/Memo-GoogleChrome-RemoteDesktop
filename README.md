@@ -106,5 +106,8 @@ ChromeRemoteDesktopアイコン右クリックし削除する．
 
 ・https://qiita.com/s5uishida/items/60eb626df030e33642f4
 
+・https://webnetforce.net/ubuntu-chrome-remote-trouble/
+
+
 
 
