@@ -54,7 +54,7 @@ sudo gedit /opt/google/chrome-remote-desktop/chrome-remote-desktop
 ```
 echo $DISPLAY
 ```
-↑と同じ数字を↓に書き換える
+↑で出力された"数字"と同じ"数字"になるよう↓を書き換える
 
 ```
 FIRST_X_DISPLAY_NUMBER = "数字"
