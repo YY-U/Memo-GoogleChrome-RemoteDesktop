@@ -77,7 +77,7 @@ FIRST_X_DISPLAY_NUMBER = "数字"
 
 すべて完了後，保存して終了．
 
-### 3．サービス再起動
+### 3．再起動
 
 ```
 sudo systemctl restart chrome-remote-desktop.service
