@@ -83,6 +83,13 @@ FIRST_X_DISPLAY_NUMBER = "数字"
 sudo systemctl restart chrome-remote-desktop.service
 ```
 
+or
+
+```
+/opt/google/chrome-remote-desktop/chrome-remote-desktop --start
+```
+
+
 ### 4．その他
 #### 4-1．上手くいかない場合
 アンインストール後最初からやり直し
