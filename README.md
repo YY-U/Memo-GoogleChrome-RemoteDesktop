@@ -95,7 +95,7 @@ sudo systemctl restart chrome-remote-desktop.service
 or
 
 ```
-/opt/google/chrome-remote-desktop/chrome-remote-desktop --start
+./chrome-remote-desktop --start
 ```
 
 
