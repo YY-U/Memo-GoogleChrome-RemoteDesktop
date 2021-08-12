@@ -13,6 +13,8 @@ chromeのウェブストア → "+CHROMEに追加"からインストール
 →以下コマンドにてインストール完了
 ```
 sudo dpkg -i chrome-remote-desktop_current_amd64.deb
+```
+```
 sudo apt-get install -f
 ```
 
@@ -20,6 +22,8 @@ sudo apt-get install -f
 カレントユーザをchrome-remote-desktopグループに追加し再起動
 ```
 sudo usermod -a -G chrome-remote-desktop $USER
+```
+```
 sudo reboot
 ```
 
